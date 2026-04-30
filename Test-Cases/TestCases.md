@@ -26,8 +26,8 @@
 | Test ID | Test Scenario | Preconditions  | Test Steps | Expected Results | Actual Reslt | Status |
 |-|-|-|-|-|-|-|
 | T_009 | Complete checkout with valid information | User has at least one item in  the cart | 1.Click cart icon 2. Click checkout 3. Enter valid First Name 4.Enter valid Last name  5.Enter valid postal code 6.Click Continue 7. Click Finish | An order confirmation page should be displayed, thanking the customer | "Thak you for your order" message was displayed| Pass |
-| T_010 | Attempt checkout without First Name | User has an item in the cart | 1.Click Checkout 2.Leave First Name empty 3.Enter Last Name 4.Enter PostalCode 5.Click continue | Error message saying: "First Name is required" should be displayed | to be filled | to be filled |
-| T_011 | Attempt checkout without Last Name | User has an item in the cart | 1. Click Checkout 2. Enter First Name 3. Leave Last Name empty 4.Enter PostalCode 5 Click Continue | Error message saying": "Last Name is required should be displayed | to  be filled | to be filled |
-| T_012 | Attempt Checkout without a PostalCode | User has at least one item in the cart | 1.Click Checkout 2.Enter First Name 3.Enter Last Name 4. Leave the PostalCode empty 5 Click Continue | Error message: "PostalCode required" should be dislpayed | to be filled  | to be filled |
+| T_010 | Attempt checkout without First Name | User has an item in the cart | 1.Click Checkout 2.Leave First Name empty 3.Enter Last Name 4.Enter PostalCode 5.Click continue | Error message saying: "First Name is required" should be displayed | Error: First Name required was displayed| Pass |
+| T_011 | Attempt checkout without Last Name | User has an item in the cart | 1. Click Checkout 2. Enter First Name 3. Leave Last Name empty 4.Enter PostalCode 5 Click Continue | Error message saying": "Last Name is required should be displayed | Error: Last Name is required was displayed | Pass |
+| T_012 | Attempt Checkout without a PostalCode | User has at least one item in the cart | 1.Click Checkout 2.Enter First Name 3.Enter Last Name 4. Leave the PostalCode empty 5 Click Continue | Error message: "PostalCode required" should be dislpayed | Error: PostalCode required was displayed  | Pass |
 
 
